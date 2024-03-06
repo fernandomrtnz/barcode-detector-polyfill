@@ -78,7 +78,7 @@ export default [
             generatedCode: 'es2015',
             sourcemap: true,
             paths: {
-                [ZBAR_WASM_PKG_NAME]: `${ZBAR_WASM_REPOSITORY}/dist/main.js`,
+                [ZBAR_WASM_PKG_NAME]: `${ZBAR_WASM_REPOSITORY}/dist/inlined/index.mjs`,
             },
         },
         external: [ZBAR_WASM_PKG_NAME],
