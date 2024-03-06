@@ -9,7 +9,7 @@ import {
 import { ScannerConfig } from './ScannerConfig'
 import { DetectedBarcode, Orientation } from './DetectedBarcode'
 import { ZBarConfig } from './ZBarConfig'
-import { Canvas, newCanvas } from '@/Canvas'
+import { Canvas, newCanvas } from './Canvas'
 
 
 /**
